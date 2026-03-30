@@ -1,0 +1,2717 @@
+-- LuxGui Delux by luxcazs
+
+local Lux = Instance.new("ScreenGui")
+Lux.Name = "Lux"
+Lux.Parent = game.CoreGui
+Lux.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local title = Instance.new("TextLabel")
+local nexty = Instance.new("TextButton")
+local nexty2 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local closzza = Instance.new("TextButton")
+local Setting_inter = Instance.new("Frame")
+local Se_ = Instance.new("Folder")
+local Setting = Instance.new("Frame")
+local nAmePage = Instance.new("TextLabel")
+local D = Instance.new("TextLabel")
+local nAmePage_2 = Instance.new("TextLabel")
+local JUMI = Instance.new("TextBox")
+local SPEED = Instance.new("TextBox")
+local SPEEDU = Instance.new("TextButton")
+local skydi = Instance.new("TextBox")
+local nAmePage_3 = Instance.new("TextLabel")
+local close_ = Instance.new("TextButton")
+local Setting2 = Instance.new("Frame")
+local nAmePage_4 = Instance.new("TextLabel")
+local D_2 = Instance.new("TextLabel")
+local SettingChatPlayer = Instance.new("TextBox")
+local nAmePage_5 = Instance.new("TextLabel")
+local D_3 = Instance.new("TextLabel")
+local SettingHint = Instance.new("TextBox")
+local D_4 = Instance.new("TextLabel")
+local teamspam = Instance.new("TextBox")
+local D_5 = Instance.new("TextLabel")
+local VOL = Instance.new("TextBox")
+local pitc = Instance.new("TextBox")
+local sound = Instance.new("TextBox")
+local sound1 = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local closeopen_ = Instance.new("TextButton")
+local Idk = Instance.new("Frame")
+local lucaslebg = Instance.new("Frame")
+local Pages = Instance.new("Folder")
+local loce_opern = Instance.new("Frame")
+local yez = Instance.new("TextButton")
+
+--Properties:
+
+Lux.Name = "Lux"
+Lux.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Lux.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+title.Name = "title"
+title.Parent = Lux
+title.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.354430377, 0, 0.125670239, 0)
+title.Size = UDim2.new(0, 288, 0, 29)
+title.Font = Enum.Font.SourceSansBold
+title.Text = "LuxGui Delux"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+nexty.Name = "nexty"
+nexty.Parent = title
+nexty.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+nexty.BackgroundTransparency = 1.000
+nexty.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nexty.BorderSizePixel = 0
+nexty.Position = UDim2.new(0.885416687, 0, 0.0483835153, 0)
+nexty.Size = UDim2.new(0, 26, 0, 25)
+nexty.Font = Enum.Font.SourceSansBold
+nexty.Text = ">"
+nexty.TextColor3 = Color3.fromRGB(255, 255, 255)
+nexty.TextScaled = true
+nexty.TextSize = 14.000
+nexty.TextWrapped = true
+
+nexty2.Name = "nexty2"
+nexty2.Parent = title
+nexty2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+nexty2.BackgroundTransparency = 1.000
+nexty2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nexty2.BorderSizePixel = 0
+nexty2.Position = UDim2.new(0.770833313, 0, 0.0483835153, 0)
+nexty2.Size = UDim2.new(0, 26, 0, 25)
+nexty2.Font = Enum.Font.SourceSansBold
+nexty2.Text = "<"
+nexty2.TextColor3 = Color3.fromRGB(255, 255, 255)
+nexty2.TextScaled = true
+nexty2.TextSize = 14.000
+nexty2.TextWrapped = true
+
+ImageLabel.Parent = title
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.027777778, 0, 0.0139007568, 0)
+ImageLabel.Size = UDim2.new(0, 30, 0, 27)
+ImageLabel.Image = "rbxassetid://135823113053164"
+
+closzza.Name = "closzza"
+closzza.Parent = ImageLabel
+closzza.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+closzza.BackgroundTransparency = 1.000
+closzza.BorderColor3 = Color3.fromRGB(0, 0, 0)
+closzza.BorderSizePixel = 0
+closzza.Position = UDim2.new(-0.233404547, 0, 0.0370370373, 0)
+closzza.Size = UDim2.new(0, 51, 0, 29)
+closzza.Font = Enum.Font.SourceSans
+closzza.Text = ""
+closzza.TextColor3 = Color3.fromRGB(0, 0, 0)
+closzza.TextSize = 14.000
+
+Setting_inter.Name = "Setting_inter"
+Setting_inter.Parent = title
+Setting_inter.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Setting_inter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Setting_inter.BorderSizePixel = 0
+Setting_inter.Position = UDim2.new(0.99891597, 0, 1, 0)
+Setting_inter.Size = UDim2.new(0, 288, 0, 434)
+Setting_inter.Visible = false
+
+Se_.Name = "Se_"
+Se_.Parent = Setting_inter
+
+Setting.Name = "Setting"
+Setting.Parent = Se_
+Setting.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Setting.BorderSizePixel = 0
+Setting.Position = UDim2.new(0, 0, 0.0688331351, 0)
+Setting.Size = UDim2.new(0, 288, 0, 351)
+
+nAmePage.Name = "nAmePage"
+nAmePage.Parent = Setting
+nAmePage.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+nAmePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nAmePage.BorderSizePixel = 0
+nAmePage.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+nAmePage.Size = UDim2.new(0, 287, 0, 13)
+nAmePage.Font = Enum.Font.SourceSansBold
+nAmePage.Text = "Setting"
+nAmePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+nAmePage.TextScaled = true
+nAmePage.TextSize = 14.000
+nAmePage.TextWrapped = true
+nAmePage.TextXAlignment = Enum.TextXAlignment.Left
+
+D.Name = "D"
+D.Parent = Setting
+D.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+D.BorderColor3 = Color3.fromRGB(0, 0, 0)
+D.BorderSizePixel = 0
+D.Position = UDim2.new(0.00108019507, 0, 0.0487949401, 0)
+D.Size = UDim2.new(0, 287, 0, 13)
+D.Font = Enum.Font.SourceSansBold
+D.Text = "ID All"
+D.TextColor3 = Color3.fromRGB(255, 255, 255)
+D.TextScaled = true
+D.TextSize = 14.000
+D.TextWrapped = true
+D.TextXAlignment = Enum.TextXAlignment.Left
+
+nAmePage_2.Name = "nAmePage"
+nAmePage_2.Parent = Setting
+nAmePage_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+nAmePage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nAmePage_2.BorderSizePixel = 0
+nAmePage_2.Position = UDim2.new(0.00108019507, 0, 0.365250677, 0)
+nAmePage_2.Size = UDim2.new(0, 287, 0, 13)
+nAmePage_2.Font = Enum.Font.SourceSansBold
+nAmePage_2.Text = "Player Speed /Jump"
+nAmePage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+nAmePage_2.TextScaled = true
+nAmePage_2.TextSize = 14.000
+nAmePage_2.TextWrapped = true
+nAmePage_2.TextXAlignment = Enum.TextXAlignment.Left
+
+JUMI.Name = "JUMI"
+JUMI.Parent = nAmePage_2
+JUMI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JUMI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JUMI.BorderSizePixel = 0
+JUMI.Position = UDim2.new(0.149293482, 0, 2.72677612, 0)
+JUMI.Size = UDim2.new(0, 200, 0, 36)
+JUMI.Font = Enum.Font.SourceSansBold
+JUMI.PlaceholderText = "Jump"
+JUMI.Text = ""
+JUMI.TextColor3 = Color3.fromRGB(0, 0, 0)
+JUMI.TextScaled = true
+JUMI.TextSize = 14.000
+JUMI.TextWrapped = true
+
+SPEED.Name = "SPEED"
+SPEED.Parent = JUMI
+SPEED.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SPEED.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SPEED.BorderSizePixel = 0
+SPEED.Position = UDim2.new(-0.00222229003, 0, 1.52805924, 0)
+SPEED.Size = UDim2.new(0, 200, 0, 36)
+SPEED.Font = Enum.Font.SourceSansBold
+SPEED.PlaceholderText = "Speed"
+SPEED.Text = ""
+SPEED.TextColor3 = Color3.fromRGB(0, 0, 0)
+SPEED.TextScaled = true
+SPEED.TextSize = 14.000
+SPEED.TextWrapped = true
+
+SPEEDU.Name = "SPEEDU"
+SPEEDU.Parent = nAmePage_2
+SPEEDU.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+SPEEDU.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SPEEDU.BorderSizePixel = 0
+SPEEDU.Position = UDim2.new(0.149825782, 0, 12.0769234, 0)
+SPEEDU.Size = UDim2.new(0, 200, 0, 37)
+SPEEDU.Font = Enum.Font.SourceSansBold
+SPEEDU.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPEEDU.TextScaled = true
+SPEEDU.TextSize = 14.000
+SPEEDU.TextWrapped = true
+
+skydi.Name = "skydi"
+skydi.Parent = Setting
+skydi.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skydi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skydi.BorderSizePixel = 0
+skydi.Position = UDim2.new(0.152777776, 0, 0.111392409, 0)
+skydi.Size = UDim2.new(0, 200, 0, 36)
+skydi.ClearTextOnFocus = false
+skydi.Font = Enum.Font.SourceSansBold
+skydi.PlaceholderText = "ID JUMPSC/SKY/SKYF3X/DECAL/DECAL/F3X/PARTICLES"
+skydi.Text = "71381429015099"
+skydi.TextColor3 = Color3.fromRGB(0, 0, 0)
+skydi.TextScaled = true
+skydi.TextSize = 14.000
+skydi.TextWrapped = true
+
+nAmePage_3.Name = "nAmePage"
+nAmePage_3.Parent = Setting
+nAmePage_3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+nAmePage_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nAmePage_3.BorderSizePixel = 0
+nAmePage_3.Position = UDim2.new(0.00108019507, 0, 0.961803019, 0)
+nAmePage_3.Size = UDim2.new(0, 287, 0, 13)
+nAmePage_3.Font = Enum.Font.SourceSansBold
+nAmePage_3.Text = ""
+nAmePage_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+nAmePage_3.TextScaled = true
+nAmePage_3.TextSize = 14.000
+nAmePage_3.TextWrapped = true
+nAmePage_3.TextXAlignment = Enum.TextXAlignment.Left
+
+close_.Name = "close_"
+close_.Parent = Se_
+close_.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+close_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close_.BorderSizePixel = 0
+close_.Position = UDim2.new(0.118055552, 0, 0.91045326, 0)
+close_.Size = UDim2.new(0, 236, 0, 22)
+close_.Font = Enum.Font.SourceSansBold
+close_.Text = ">"
+close_.TextColor3 = Color3.fromRGB(255, 255, 255)
+close_.TextScaled = true
+close_.TextSize = 14.000
+close_.TextWrapped = true
+
+Setting2.Name = "Setting2"
+Setting2.Parent = Se_
+Setting2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Setting2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Setting2.BorderSizePixel = 0
+Setting2.Position = UDim2.new(0, 0, 0.0688331351, 0)
+Setting2.Size = UDim2.new(0, 288, 0, 351)
+Setting2.Visible = false
+
+nAmePage_4.Name = "nAmePage"
+nAmePage_4.Parent = Setting2
+nAmePage_4.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+nAmePage_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nAmePage_4.BorderSizePixel = 0
+nAmePage_4.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+nAmePage_4.Size = UDim2.new(0, 287, 0, 13)
+nAmePage_4.Font = Enum.Font.SourceSansBold
+nAmePage_4.Text = "Setting"
+nAmePage_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+nAmePage_4.TextScaled = true
+nAmePage_4.TextSize = 14.000
+nAmePage_4.TextWrapped = true
+nAmePage_4.TextXAlignment = Enum.TextXAlignment.Left
+
+D_2.Name = "D"
+D_2.Parent = Setting2
+D_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+D_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+D_2.BorderSizePixel = 0
+D_2.Position = UDim2.new(0.00108019507, 0, 0.0487949401, 0)
+D_2.Size = UDim2.new(0, 287, 0, 13)
+D_2.Font = Enum.Font.SourceSansBold
+D_2.Text = "Setting Chat Player/Spam Chat"
+D_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+D_2.TextScaled = true
+D_2.TextSize = 14.000
+D_2.TextWrapped = true
+D_2.TextXAlignment = Enum.TextXAlignment.Left
+
+SettingChatPlayer.Name = "SettingChatPlayer"
+SettingChatPlayer.Parent = Setting2
+SettingChatPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingChatPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SettingChatPlayer.BorderSizePixel = 0
+SettingChatPlayer.Position = UDim2.new(0.152777776, 0, 0.111392409, 0)
+SettingChatPlayer.Size = UDim2.new(0, 200, 0, 36)
+SettingChatPlayer.Font = Enum.Font.SourceSansBold
+SettingChatPlayer.PlaceholderText = "Textbox"
+SettingChatPlayer.Text = "JOIN TEAM LUXCAZS !"
+SettingChatPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+SettingChatPlayer.TextScaled = true
+SettingChatPlayer.TextSize = 14.000
+SettingChatPlayer.TextWrapped = true
+
+nAmePage_5.Name = "nAmePage"
+nAmePage_5.Parent = Setting2
+nAmePage_5.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+nAmePage_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nAmePage_5.BorderSizePixel = 0
+nAmePage_5.Position = UDim2.new(0.00108019507, 0, 0.961803019, 0)
+nAmePage_5.Size = UDim2.new(0, 287, 0, 13)
+nAmePage_5.Font = Enum.Font.SourceSansBold
+nAmePage_5.Text = ""
+nAmePage_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+nAmePage_5.TextScaled = true
+nAmePage_5.TextSize = 14.000
+nAmePage_5.TextWrapped = true
+nAmePage_5.TextXAlignment = Enum.TextXAlignment.Left
+
+D_3.Name = "D"
+D_3.Parent = Setting2
+D_3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+D_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+D_3.BorderSizePixel = 0
+D_3.Position = UDim2.new(0.00108019507, 0, 0.273866177, 0)
+D_3.Size = UDim2.new(0, 287, 0, 13)
+D_3.Font = Enum.Font.SourceSansBold
+D_3.Text = "Setting Hint"
+D_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+D_3.TextScaled = true
+D_3.TextSize = 14.000
+D_3.TextWrapped = true
+D_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SettingHint.Name = "SettingHint"
+SettingHint.Parent = Setting2
+SettingHint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingHint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SettingHint.BorderSizePixel = 0
+SettingHint.Position = UDim2.new(0.149305552, 0, 0.333614677, 0)
+SettingHint.Size = UDim2.new(0, 200, 0, 36)
+SettingHint.Font = Enum.Font.SourceSansBold
+SettingHint.PlaceholderText = "Textbox"
+SettingHint.Text = "JOIN TEAM LUXCAZS !"
+SettingHint.TextColor3 = Color3.fromRGB(0, 0, 0)
+SettingHint.TextScaled = true
+SettingHint.TextSize = 14.000
+SettingHint.TextWrapped = true
+
+D_4.Name = "D"
+D_4.Parent = Setting2
+D_4.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+D_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+D_4.BorderSizePixel = 0
+D_4.Position = UDim2.new(0.00108019507, 0, 0.4362593, 0)
+D_4.Size = UDim2.new(0, 287, 0, 13)
+D_4.Font = Enum.Font.SourceSansBold
+D_4.Text = "Team Spam Setting"
+D_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+D_4.TextScaled = true
+D_4.TextSize = 14.000
+D_4.TextWrapped = true
+D_4.TextXAlignment = Enum.TextXAlignment.Left
+
+teamspam.Name = "teamspam"
+teamspam.Parent = Setting2
+teamspam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teamspam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+teamspam.BorderSizePixel = 0
+teamspam.Position = UDim2.new(0.152777776, 0, 0.503884017, 0)
+teamspam.Size = UDim2.new(0, 200, 0, 25)
+teamspam.ClearTextOnFocus = false
+teamspam.Font = Enum.Font.SourceSansBold
+teamspam.Text = "JOIN TEAM LUXCAZS !"
+teamspam.TextColor3 = Color3.fromRGB(0, 0, 0)
+teamspam.TextScaled = true
+teamspam.TextSize = 14.000
+teamspam.TextWrapped = true
+
+D_5.Name = "D"
+D_5.Parent = Setting2
+D_5.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+D_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+D_5.BorderSizePixel = 0
+D_5.Position = UDim2.new(0.00108019507, 0, 0.63853848, 0)
+D_5.Size = UDim2.new(0, 287, 0, 13)
+D_5.Font = Enum.Font.SourceSansBold
+D_5.Text = "MusicSetting"
+D_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+D_5.TextScaled = true
+D_5.TextSize = 14.000
+D_5.TextWrapped = true
+D_5.TextXAlignment = Enum.TextXAlignment.Left
+
+VOL.Name = "VOL"
+VOL.Parent = Setting2
+VOL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VOL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VOL.BorderSizePixel = 0
+VOL.Position = UDim2.new(0.149305552, 0, 0.828670323, 0)
+VOL.Size = UDim2.new(0, 100, 0, 25)
+VOL.ClearTextOnFocus = false
+VOL.Font = Enum.Font.SourceSansBold
+VOL.PlaceholderText = "VOL"
+VOL.Text = "10"
+VOL.TextColor3 = Color3.fromRGB(0, 0, 0)
+VOL.TextScaled = true
+VOL.TextSize = 14.000
+VOL.TextWrapped = true
+
+pitc.Name = "pitc"
+pitc.Parent = Setting2
+pitc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pitc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pitc.BorderSizePixel = 0
+pitc.Position = UDim2.new(0.5, 0, 0.828670323, 0)
+pitc.Size = UDim2.new(0, 100, 0, 25)
+pitc.ClearTextOnFocus = false
+pitc.Font = Enum.Font.SourceSansBold
+pitc.PlaceholderText = "PITCH"
+pitc.Text = "0.5"
+pitc.TextColor3 = Color3.fromRGB(0, 0, 0)
+pitc.TextScaled = true
+pitc.TextSize = 14.000
+pitc.TextWrapped = true
+
+sound.Name = "sound"
+sound.Parent = Setting2
+sound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sound.BorderSizePixel = 0
+sound.Position = UDim2.new(0.027777778, 0, 0.734653234, 0)
+sound.Size = UDim2.new(0, 135, 0, 25)
+sound.ClearTextOnFocus = false
+sound.Font = Enum.Font.SourceSansBold
+sound.PlaceholderText = "ID"
+sound.Text = "rbxassetid://1841647093"
+sound.TextColor3 = Color3.fromRGB(0, 0, 0)
+sound.TextScaled = true
+sound.TextSize = 14.000
+sound.TextWrapped = true
+
+sound1.Name = "sound1"
+sound1.Parent = Setting2
+sound1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sound1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sound1.BorderSizePixel = 0
+sound1.Position = UDim2.new(0.53125, 0, 0.734653234, 0)
+sound1.Size = UDim2.new(0, 117, 0, 25)
+sound1.ClearTextOnFocus = false
+sound1.Font = Enum.Font.SourceSansBold
+sound1.PlaceholderText = "ID"
+sound1.Text = "1841647093"
+sound1.TextColor3 = Color3.fromRGB(0, 0, 0)
+sound1.TextScaled = true
+sound1.TextSize = 14.000
+sound1.TextWrapped = true
+
+TextLabel.Parent = sound1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, -0.829450667, 0)
+TextLabel.Size = UDim2.new(0, 116, 0, 19)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "F3X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+closeopen_.Name = "closeopen_"
+closeopen_.Parent = Se_
+closeopen_.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+closeopen_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+closeopen_.BorderSizePixel = 0
+closeopen_.Position = UDim2.new(0.118055552, 0, 0.91045326, 0)
+closeopen_.Size = UDim2.new(0, 236, 0, 22)
+closeopen_.Visible = false
+closeopen_.Font = Enum.Font.SourceSansBold
+closeopen_.Text = "<"
+closeopen_.TextColor3 = Color3.fromRGB(255, 255, 255)
+closeopen_.TextSize = 14.000
+closeopen_.TextWrapped = true
+
+Idk.Name = "Idk"
+Idk.Parent = Setting_inter
+Idk.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Idk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Idk.BorderSizePixel = 0
+Idk.Position = UDim2.new(-0.00347285811, 0, 0.0115207378, 0)
+Idk.Size = UDim2.new(0, 1, 0, 429)
+
+lucaslebg.Name = "lucaslebg"
+lucaslebg.Parent = title
+lucaslebg.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+lucaslebg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lucaslebg.BorderSizePixel = 0
+lucaslebg.Position = UDim2.new(-0.00108400977, 0, 1, 0)
+lucaslebg.Size = UDim2.new(0, 288, 0, 434)
+
+Pages.Name = "Pages"
+Pages.Parent = lucaslebg
+
+loce_opern.Name = "loce_opern"
+loce_opern.Parent = Lux
+loce_opern.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+loce_opern.BackgroundTransparency = 0.550
+loce_opern.BorderColor3 = Color3.fromRGB(0, 0, 0)
+loce_opern.BorderSizePixel = 0
+loce_opern.Position = UDim2.new(0.0738396645, 0, 0.511058927, 0)
+loce_opern.Size = UDim2.new(0, 89, 0, 52)
+loce_opern.Visible = false
+
+yez.Name = "yez"
+yez.Parent = loce_opern
+yez.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yez.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yez.BorderSizePixel = 0
+yez.Size = UDim2.new(0, 69, 0, 52)
+yez.Font = Enum.Font.SourceSansBold
+yez.Text = "Open/Close"
+yez.TextColor3 = Color3.fromRGB(0, 0, 0)
+yez.TextScaled = true
+yez.TextSize = 14.000
+yez.TextWrapped = true
+
+-- Scripts:
+
+local function DUIN_fake_script() -- title.Dragify 
+	local script = Instance.new('LocalScript', title)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(DUIN_fake_script)()
+local function YDEKL_fake_script() -- nexty.LocalScript 
+	local script = Instance.new('LocalScript', nexty)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.lucaslebg.Pages.Home.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Home.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Game.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Game.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Game.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Others.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Others.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Others.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Executor.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Executor.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Executor.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Bonus.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Bonus.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Bonus.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Home.Visible = true
+		end
+	
+	end)
+end
+coroutine.wrap(YDEKL_fake_script)()
+local function MJIP_fake_script() -- nexty2.LocalScript 
+	local script = Instance.new('LocalScript', nexty2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.lucaslebg.Pages.Home.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Home.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Bonus.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Bonus.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Bonus.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Executor.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Executor.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Executor.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Others.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Others.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Others.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Game.Visible = true
+		elseif script.Parent.Parent.lucaslebg.Pages.Game.Visible == true then
+			script.Parent.Parent.lucaslebg.Pages.Game.Visible = false
+			script.Parent.Parent.lucaslebg.Pages.Home.Visible = true
+		end
+	
+	end)
+end
+coroutine.wrap(MJIP_fake_script)()
+local function CFKNTN_fake_script() -- closzza.LocalScript 
+	local script = Instance.new('LocalScript', closzza)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		script.Parent.Parent.Parent.Parent.Parent.Lux.loce_opern.Visible = not script.Parent.Parent.Parent.Parent.Parent.Lux.loce_opern.Visible
+	end)
+end
+coroutine.wrap(CFKNTN_fake_script)()
+local function WYGQ_fake_script() -- SPEEDU.LocalScript 
+	local script = Instance.new('LocalScript', SPEEDU)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local setspeed = script.Parent.Parent.JUMI.SPEED.Text
+		local setjump = script.Parent.Parent.JUMI.Text
+		local hum = game.Workspace:WaitForChild(player.Name).Humanoid
+		if hum then
+			hum.WalkSpeed = setspeed
+			hum.JumpPower = setjump
+		end
+	end)
+end
+coroutine.wrap(WYGQ_fake_script)()
+local function ZORD_fake_script() -- close_.LocalScript 
+	local script = Instance.new('LocalScript', close_)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Setting2.Visible = false
+		script.Parent.Parent.close_.Visible = false
+		script.Parent.Parent.closeopen_.Visible = true
+		script.Parent.Parent.Setting.Visible = true
+	
+		end)
+end
+coroutine.wrap(ZORD_fake_script)()
+local function DEMNSDQ_fake_script() -- closeopen_.LocalScript 
+	local script = Instance.new('LocalScript', closeopen_)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Setting.Visible = false
+		script.Parent.Parent.closeopen_.Visible = false
+	script.Parent.Parent.close_.Visible = true
+		script.Parent.Parent.Setting2.Visible = true
+	
+		end)
+end
+coroutine.wrap(DEMNSDQ_fake_script)()
+local function SGOCEIW_fake_script() -- Pages.executorss 
+	local script = Instance.new('LocalScript', Pages)
+
+	
+	
+	local Executor = Instance.new("Frame")
+	local nAmePage = Instance.new("TextLabel")
+	local scriptexecutor = Instance.new("TextBox")
+	local execute = Instance.new("TextButton")
+	
+	--Properties:
+	
+	Executor.Name = "Executor"
+	Executor.Parent = script.Parent.Parent.Pages
+	Executor.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+	Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Executor.BorderSizePixel = 0
+	Executor.Position = UDim2.new(0, 0, 0.0688330978, 0)
+	Executor.Size = UDim2.new(0, 288, 0, 395)
+	Executor.Visible = false
+	
+	nAmePage.Name = "nAmePage"
+	nAmePage.Parent = Executor
+	nAmePage.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage.BorderSizePixel = 0
+	nAmePage.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+	nAmePage.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage.Font = Enum.Font.SourceSansBold
+	nAmePage.Text = "Page Executor Local"
+	nAmePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage.TextScaled = true
+	nAmePage.TextSize = 14.000
+	nAmePage.TextWrapped = true
+	nAmePage.TextXAlignment = Enum.TextXAlignment.Left
+	
+	scriptexecutor.Name = "scriptexecutor"
+	scriptexecutor.Parent = Executor
+	scriptexecutor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	scriptexecutor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	scriptexecutor.BorderSizePixel = 0
+	scriptexecutor.Position = UDim2.new(0.131944448, 0, 0.0784809366, 0)
+	scriptexecutor.Size = UDim2.new(0, 200, 0, 170)
+	scriptexecutor.Font = Enum.Font.SourceSansBold
+	scriptexecutor.PlaceholderText = "Script here...."
+	scriptexecutor.Text = ""
+	scriptexecutor.TextColor3 = Color3.fromRGB(0, 0, 0)
+	scriptexecutor.TextScaled = true
+	scriptexecutor.TextSize = 14.000
+	scriptexecutor.TextWrapped = true
+	
+	execute.Name = "execute"
+	execute.Parent = Executor
+	execute.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	execute.BorderColor3 = Color3.fromRGB(67, 67, 67)
+	execute.BorderSizePixel = 0
+	execute.Position = UDim2.new(0.131944448, 0, 0.567088604, 0)
+	execute.Size = UDim2.new(0, 200, 0, 50)
+	execute.Font = Enum.Font.SourceSansBold
+	execute.Text = "Execute"
+	execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+	execute.TextScaled = true
+	execute.TextSize = 14.000
+	execute.TextWrapped = true
+	
+	-- Scripts:
+	
+	local function SZFKZT_fake_script() -- Executor.LocalScript 
+		local script = Instance.new('LocalScript', Executor)
+	
+		script.Parent.execute.MouseButton1Click:Connect(function()
+			loadstring(script.Parent.scriptexecutor.Text)()
+		end)
+	end
+	coroutine.wrap(SZFKZT_fake_script)()
+	
+end
+coroutine.wrap(SGOCEIW_fake_script)()
+local function KHTYE_fake_script() -- Pages.Otherss 
+	local script = Instance.new('LocalScript', Pages)
+
+	
+	local Others = Instance.new("Frame")
+	local nAmePage = Instance.new("TextLabel")
+	local Skybox = Instance.new("TextButton")
+	local Decal = Instance.new("TextButton")
+	local Patricle = Instance.new("TextButton")
+	local openssetting = Instance.new("TextButton")
+	local nAmePage_2 = Instance.new("TextLabel")
+	local nAmePage_3 = Instance.new("TextLabel")
+	local SkyboxF3X = Instance.new("TextButton")
+	local DecalF3X = Instance.new("TextButton")
+	local mslux = Instance.new("TextButton")
+	local mc = Instance.new("TextButton")
+	local chatall = Instance.new("TextButton")
+	local hint = Instance.new("TextButton")
+	local teamspam = Instance.new("TextButton")
+	local jump = Instance.new("TextButton")
+	local PlaYMusic = Instance.new("TextButton")
+	local StopSound = Instance.new("TextButton")
+	local givebtools = Instance.new("TextButton")
+	
+	--Properties:
+	
+	Others.Name = "Others"
+	Others.Parent = script.Parent.Parent.Pages
+	Others.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+	Others.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Others.BorderSizePixel = 0
+	Others.Position = UDim2.new(0, 0, 0.0688330978, 0)
+	Others.Size = UDim2.new(0, 288, 0, 395)
+	Others.Visible = false
+	
+	nAmePage.Name = "nAmePage"
+	nAmePage.Parent = Others
+	nAmePage.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage.BorderSizePixel = 0
+	nAmePage.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+	nAmePage.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage.Font = Enum.Font.SourceSansBold
+	nAmePage.Text = "Page Others"
+	nAmePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage.TextScaled = true
+	nAmePage.TextSize = 14.000
+	nAmePage.TextWrapped = true
+	nAmePage.TextXAlignment = Enum.TextXAlignment.Left
+	
+	Skybox.Name = "Skybox"
+	Skybox.Parent = Others
+	Skybox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Skybox.BorderSizePixel = 0
+	Skybox.Position = UDim2.new(0.0173611119, 0, 0.0202531647, 0)
+	Skybox.Size = UDim2.new(0, 112, 0, 30)
+	Skybox.Font = Enum.Font.SourceSansBold
+	Skybox.Text = "Skybox"
+	Skybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Skybox.TextScaled = true
+	Skybox.TextSize = 14.000
+	Skybox.TextWrapped = true
+	
+	Decal.Name = "Decal"
+	Decal.Parent = Others
+	Decal.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Decal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Decal.BorderSizePixel = 0
+	Decal.Position = UDim2.new(0.548611104, 0, 0.0202531647, 0)
+	Decal.Size = UDim2.new(0, 112, 0, 30)
+	Decal.Font = Enum.Font.SourceSansBold
+	Decal.Text = "Decal"
+	Decal.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Decal.TextScaled = true
+	Decal.TextSize = 14.000
+	Decal.TextWrapped = true
+	
+	Patricle.Name = "Patricle"
+	Patricle.Parent = Others
+	Patricle.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Patricle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Patricle.BorderSizePixel = 0
+	Patricle.Position = UDim2.new(0.0173611119, 0, 0.154430375, 0)
+	Patricle.Size = UDim2.new(0, 112, 0, 30)
+	Patricle.Font = Enum.Font.SourceSansBold
+	Patricle.Text = "Patricle"
+	Patricle.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Patricle.TextScaled = true
+	Patricle.TextSize = 14.000
+	Patricle.TextWrapped = true
+	
+	openssetting.Name = "openssetting"
+	openssetting.Parent = Others
+	openssetting.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	openssetting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	openssetting.BorderSizePixel = 0
+	openssetting.Position = UDim2.new(0, 0, 0.926582277, 0)
+	openssetting.Size = UDim2.new(0, 286, 0, 22)
+	openssetting.Font = Enum.Font.SourceSansBold
+	openssetting.Text = "Open/close Setting"
+	openssetting.TextColor3 = Color3.fromRGB(255, 255, 255)
+	openssetting.TextScaled = true
+	openssetting.TextSize = 14.000
+	openssetting.TextWrapped = true
+	
+	nAmePage_2.Name = "nAmePage"
+	nAmePage_2.Parent = Others
+	nAmePage_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage_2.BorderSizePixel = 0
+	nAmePage_2.Position = UDim2.new(0.00455252314, 0, 0.456389904, 0)
+	nAmePage_2.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage_2.Font = Enum.Font.SourceSansBold
+	nAmePage_2.Text = "F3X"
+	nAmePage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage_2.TextScaled = true
+	nAmePage_2.TextSize = 14.000
+	nAmePage_2.TextWrapped = true
+	nAmePage_2.TextXAlignment = Enum.TextXAlignment.Left
+	
+	nAmePage_3.Name = "nAmePage"
+	nAmePage_3.Parent = Others
+	nAmePage_3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage_3.BorderSizePixel = 0
+	nAmePage_3.Position = UDim2.new(0.00455252314, 0, 0.85638994, 0)
+	nAmePage_3.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage_3.Font = Enum.Font.SourceSansBold
+	nAmePage_3.Text = ""
+	nAmePage_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage_3.TextScaled = true
+	nAmePage_3.TextSize = 14.000
+	nAmePage_3.TextWrapped = true
+	nAmePage_3.TextXAlignment = Enum.TextXAlignment.Left
+	
+	SkyboxF3X.Name = "SkyboxF3X"
+	SkyboxF3X.Parent = Others
+	SkyboxF3X.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	SkyboxF3X.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	SkyboxF3X.BorderSizePixel = 0
+	SkyboxF3X.Position = UDim2.new(0.0347222239, 0, 0.53924042, 0)
+	SkyboxF3X.Size = UDim2.new(0, 113, 0, 36)
+	SkyboxF3X.Font = Enum.Font.SourceSansBold
+	SkyboxF3X.Text = "Skybox"
+	SkyboxF3X.TextColor3 = Color3.fromRGB(255, 255, 255)
+	SkyboxF3X.TextScaled = true
+	SkyboxF3X.TextSize = 14.000
+	SkyboxF3X.TextWrapped = true
+	
+	DecalF3X.Name = "DecalF3X"
+	DecalF3X.Parent = Others
+	DecalF3X.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	DecalF3X.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	DecalF3X.BorderSizePixel = 0
+	DecalF3X.Position = UDim2.new(0.548611104, 0, 0.539240479, 0)
+	DecalF3X.Size = UDim2.new(0, 113, 0, 36)
+	DecalF3X.Font = Enum.Font.SourceSansBold
+	DecalF3X.Text = "Decal"
+	DecalF3X.TextColor3 = Color3.fromRGB(255, 255, 255)
+	DecalF3X.TextScaled = true
+	DecalF3X.TextSize = 14.000
+	DecalF3X.TextWrapped = true
+	
+	mslux.Name = "mslux"
+	mslux.Parent = Others
+	mslux.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	mslux.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	mslux.BorderSizePixel = 0
+	mslux.Position = UDim2.new(0.0347222239, 0, 0.67088598, 0)
+	mslux.Size = UDim2.new(0, 113, 0, 36)
+	mslux.Font = Enum.Font.SourceSansBold
+	mslux.Text = "Join Team Luxcazs ( mb )"
+	mslux.TextColor3 = Color3.fromRGB(255, 255, 255)
+	mslux.TextScaled = true
+	mslux.TextSize = 14.000
+	mslux.TextWrapped = true
+	
+	mc.Name = "mc"
+	mc.Parent = Others
+	mc.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	mc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	mc.BorderSizePixel = 0
+	mc.Position = UDim2.new(0.548611104, 0, 0.67088598, 0)
+	mc.Size = UDim2.new(0, 113, 0, 36)
+	mc.Font = Enum.Font.SourceSansBold
+	mc.Text = "Music"
+	mc.TextColor3 = Color3.fromRGB(255, 255, 255)
+	mc.TextScaled = true
+	mc.TextSize = 14.000
+	mc.TextWrapped = true
+	
+	chatall.Name = "chatall"
+	chatall.Parent = Others
+	chatall.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	chatall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	chatall.BorderSizePixel = 0
+	chatall.Position = UDim2.new(0.0173611119, 0, 0.344304025, 0)
+	chatall.Size = UDim2.new(0, 112, 0, 30)
+	chatall.Font = Enum.Font.SourceSansBold
+	chatall.Text = "Chat All"
+	chatall.TextColor3 = Color3.fromRGB(255, 255, 255)
+	chatall.TextScaled = true
+	chatall.TextSize = 14.000
+	chatall.TextWrapped = true
+	
+	hint.Name = "hint"
+	hint.Parent = Others
+	hint.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	hint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	hint.BorderSizePixel = 0
+	hint.Position = UDim2.new(0.0173611119, 0, 0.258227855, 0)
+	hint.Size = UDim2.new(0, 112, 0, 30)
+	hint.Font = Enum.Font.SourceSansBold
+	hint.Text = "Hint"
+	hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+	hint.TextScaled = true
+	hint.TextSize = 14.000
+	hint.TextWrapped = true
+	
+	teamspam.Name = "teamspam"
+	teamspam.Parent = Others
+	teamspam.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	teamspam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	teamspam.BorderSizePixel = 0
+	teamspam.Position = UDim2.new(0.548611104, 0, 0.344304025, 0)
+	teamspam.Size = UDim2.new(0, 112, 0, 30)
+	teamspam.Font = Enum.Font.SourceSansBold
+	teamspam.Text = "Team Spam"
+	teamspam.TextColor3 = Color3.fromRGB(255, 255, 255)
+	teamspam.TextScaled = true
+	teamspam.TextSize = 14.000
+	teamspam.TextWrapped = true
+	
+	jump.Name = "jump"
+	jump.Parent = Others
+	jump.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	jump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	jump.BorderSizePixel = 0
+	jump.Position = UDim2.new(0.548611104, 0, 0.258227855, 0)
+	jump.Size = UDim2.new(0, 112, 0, 30)
+	jump.Font = Enum.Font.SourceSansBold
+	jump.Text = "Jumpscare"
+	jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+	jump.TextScaled = true
+	jump.TextSize = 14.000
+	jump.TextWrapped = true
+	
+	PlaYMusic.Name = "PlaYMusic"
+	PlaYMusic.Parent = Others
+	PlaYMusic.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	PlaYMusic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	PlaYMusic.BorderSizePixel = 0
+	PlaYMusic.Position = UDim2.new(0.541666687, 0, 0.154430375, 0)
+	PlaYMusic.Size = UDim2.new(0, 52, 0, 30)
+	PlaYMusic.Font = Enum.Font.SourceSansBold
+	PlaYMusic.Text = "Music"
+	PlaYMusic.TextColor3 = Color3.fromRGB(255, 255, 255)
+	PlaYMusic.TextScaled = true
+	PlaYMusic.TextSize = 14.000
+	PlaYMusic.TextWrapped = true
+	
+	StopSound.Name = "StopSound"
+	StopSound.Parent = Others
+	StopSound.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	StopSound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	StopSound.BorderSizePixel = 0
+	StopSound.Position = UDim2.new(0.746527791, 0, 0.154430375, 0)
+	StopSound.Size = UDim2.new(0, 56, 0, 30)
+	StopSound.Font = Enum.Font.SourceSansBold
+	StopSound.Text = "Stop Sound"
+	StopSound.TextColor3 = Color3.fromRGB(255, 255, 255)
+	StopSound.TextScaled = true
+	StopSound.TextSize = 14.000
+	StopSound.TextWrapped = true
+	
+	givebtools.Name = "givebtools"
+	givebtools.Parent = Others
+	givebtools.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	givebtools.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	givebtools.BorderSizePixel = 0
+	givebtools.Position = UDim2.new(0.0347222239, 0, 0.794936657, 0)
+	givebtools.Size = UDim2.new(0, 113, 0, 23)
+	givebtools.Font = Enum.Font.SourceSansBold
+	givebtools.Text = "Give Btools"
+	givebtools.TextColor3 = Color3.fromRGB(255, 255, 255)
+	givebtools.TextScaled = true
+	givebtools.TextSize = 14.000
+	givebtools.TextWrapped = true
+	
+	-- Scripts:
+	
+	local function PPSWKVL_fake_script() -- Others.LocalScript 
+		local script = Instance.new('LocalScript', Others)
+	
+		script.Parent.Skybox.MouseButton1Down:connect(function()
+			local s = Instance.new("Sky")
+			s.Name = "Sky"
+			s.Parent = game.Lighting
+			local skyboxID = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+			s.SkyboxBk = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxDn = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxFt = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxLf = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxRt = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxUp = "http://www.roblox.com/asset/?id="..skyboxID
+			game.Lighting.TimeOfDay = 12		
+		end)
+		script.Parent.Decal.MouseButton1Down:connect(function()
+			decalID = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+				function exPro(root)
+					for _, v in pairs(root:GetChildren()) do
+						if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+							v.Parent = nil
+						elseif v:IsA("BasePart") then
+							v.Material = "Plastic"
+							v.Transparency = 0
+							local One = Instance.new("Decal", v)
+							local Two = Instance.new("Decal", v)
+							local Three = Instance.new("Decal", v)
+							local Four = Instance.new("Decal", v)
+							local Five = Instance.new("Decal", v)
+							local Six = Instance.new("Decal", v)
+							One.Texture = "http://www.roblox.com/asset/?id="..decalID
+							Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+							Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+							Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+							Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+							Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+							One.Face = "Front"
+							Two.Face = "Back"
+							Three.Face = "Right"
+							Four.Face = "Left"
+							Five.Face = "Top"
+							Six.Face = "Bottom"
+						end
+						exPro(v)
+					end
+				end
+				function asdf(root)
+					for _, v in pairs(root:GetChildren()) do
+						asdf(v)
+					end
+				end
+				exPro(game.Workspace)
+				asdf(game.Workspace)
+			end)
+		script.Parent.Patricle.MouseButton1Down:connect(function()
+			for i, v in pairs(game.Workspace:GetDescendants()) do
+				local skibidilux = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+			ronnieemit = Instance.new("ParticleEmitter")
+			ronnieemit.Parent = v
+				ronnieemit.Texture = "http://www.roblox.com/asset/?id="..skibidilux
+			ronnieemit.VelocitySpread = 1000000000000000000000
+		end
+		end)
+		
+		function click()
+			local m = Instance.new("Hint", game.workspace)
+			local lux = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.SettingHint.Text
+			m.Text = ""..lux
+		end
+		
+		script.Parent.hint.MouseButton1Down:connect(click)
+		
+		script.Parent.chatall.MouseButton1Click:Connect(function()
+			local luxcazslebg = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.SettingChatPlayer.Text
+			for i,v in pairs(game.Players:GetChildren()) do game:GetService("Chat"):Chat(v.Character.Head, "".. luxcazslebg) end
+		end)
+		
+		script.Parent.openssetting.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Visible = not script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Visible 
+		end)
+		
+		script.Parent.jump.MouseButton1Click:Connect(function()
+			jumpscareluxID = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+					spawn(function()
+						local newgui = Instance.new("ScreenGui",v.PlayerGui)
+						newgui.Name = "Screamer"
+						local newimage = Instance.new("ImageLabel",newgui)
+						newimage.Image = "http://www.roblox.com/asset/?id="..jumpscareluxID
+						newimage.Size = UDim2.new(1,1,1,1)
+						local s = Instance.new("Sound",newgui)
+						s.SoundId = "rbxassetid://2050546175"
+						s.Volume = 9999999999999999999999999999999999999
+						s.Looped = true
+						s:Play()
+						print("Screamed "..v.Name)
+						while wait(9) do
+		
+							newimage.Parent:Destroy()
+		
+						end
+					end)
+				end
+			end
+		end)
+		function onClick()
+			
+			
+			
+			
+			local LUX		= Instance.new("Sound")
+			local SoundX = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.sound.Text
+			local PIT = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.pitc.Text
+			local Vol = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.VOL.Text
+			LUX.Parent		= game:GetService("Workspace")
+			LUX.SoundId		= ""..SoundX
+			LUX.Playing		= true
+			LUX.Looped		= true
+			LUX.Pitch      = ""..PIT
+			LUX.Volume		= ""..Vol
+		
+			
+			
+			
+		end
+		
+		script.Parent.PlaYMusic.MouseButton1Down:connect(onClick)
+		
+		function click()
+			local Sound = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.teamspam.Text
+			while true do
+				local team1 = Instance.new("Team", game.Teams)
+				team1.Name = ""..Sound
+				team1.TeamColor = BrickColor.random()
+				game:service'Debris':AddItem(team1,0.3)
+				wait()
+			end
+		end
+		
+		script.Parent.teamspam.MouseButton1Down:connect(click)
+		
+		script.Parent.StopSound.MouseButton1Down:Connect(function()
+			for i,v in pairs(workspace:GetDescendants()) do
+				if v:IsA("Sound") then
+					v:Destroy()
+				end
+			end
+		end)
+		
+		
+		script.Parent.DecalF3X.MouseButton1Click:Connect(function()
+			local slux = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+				local player = game.Players.LocalPlayer
+				local char = player.Character
+				local tool
+				for i,v in player:GetDescendants() do
+					if v.Name == "SyncAPI" then
+						tool = v.Parent
+					end
+				end
+				for i,v in game.ReplicatedStorage:GetDescendants() do
+					if v.Name == "SyncAPI" then
+						tool = v.Parent
+					end
+				end
+				--craaa
+				remote = tool.SyncAPI.ServerEndpoint
+				function _(args)
+					remote:InvokeServer(unpack(args))
+				end
+				function SetCollision(part,boolean)
+					local args = {
+						[1] = "SyncCollision",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["CanCollide"] = boolean
+							}
+						}
+					}
+					_(args)
+				end
+				function SetAnchor(boolean,part)
+					local args = {
+						[1] = "SyncAnchor",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Anchored"] = boolean
+							}
+						}
+					}
+					_(args)
+				end
+				function CreatePart(cf,parent)
+					local args = {
+						[1] = "CreatePart",
+						[2] = "Normal",
+						[3] = cf,
+						[4] = parent
+					}
+					_(args)
+				end
+				function DestroyPart(part)
+					local args = {
+						[1] = "Remove",
+						[2] = {
+							[1] = part
+						}
+					}
+					_(args)
+				end
+				function MovePart(part,cf)
+					local args = {
+						[1] = "SyncMove",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["CFrame"] = cf
+							}
+						}
+					}
+					_(args)
+				end
+				function Resize(part,size,cf)
+					local args = {
+						[1] = "SyncResize",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["CFrame"] = cf,
+								["Size"] = size
+							}
+						}
+					}
+					_(args)
+				end
+				function AddMesh(part)
+					local args = {
+						[1] = "CreateMeshes",
+						[2] = {
+							[1] = {
+								["Part"] = part
+							}
+						}
+					}
+					_(args)
+				end
+		
+				function SetMesh(part,meshid)
+					local args = {
+						[1] = "SyncMesh",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["MeshId"] = "rbxassetid://"..meshid
+							}
+						}
+					}
+					_(args)
+				end
+				function SetTexture(part, texid)
+					local args = {
+						[1] = "SyncMesh",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["TextureId"] = "rbxassetid://"..texid
+							}
+						}
+					}
+					_(args)
+				end
+				function SetName(part, stringg)
+					local args = {
+						[1] = "SetName",
+						[2] = {
+							[1] = part
+						},
+						[3] = stringg
+					}
+		
+					_(args)
+				end
+				function MeshResize(part,size)
+					local args = {
+						[1] = "SyncMesh",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Scale"] = size
+							}
+						}
+					}
+					_(args)
+				end
+				function Weld(part1, part2,lead)
+					local args = {
+						[1] = "CreateWelds",
+						[2] = {
+							[1] = part1,
+							[2] = part2
+						},
+						[3] = lead
+					}
+					_(args)
+		
+				end
+				function SetLocked(part,boolean)
+					local args = {
+						[1] = "SetLocked",
+						[2] = {
+							[1] = part
+						},
+						[3] = boolean
+					}
+					_(args)
+				end
+				function SetTrans(part,int)
+					local args = {
+						[1] = "SyncMaterial",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Transparency"] = int
+							}
+						}
+					}
+					_(args)
+				end
+				function CreateSpotlight(part)
+					local args = {
+						[1] = "CreateLights",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["LightType"] = "SpotLight"
+							}
+						}
+					}
+					_(args)
+				end
+				function SyncLighting(part,brightness)
+					local args = {
+						[1] = "SyncLighting",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["LightType"] = "SpotLight",
+								["Brightness"] = brightness
+							}
+						}
+					}
+					_(args)
+				end
+				function Color(part,color)
+					local args = {
+						[1] = "SyncColor",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Color"] = color --[[Color3]],
+								["UnionColoring"] = false
+							}
+						}
+					}
+					_(args)
+				end
+				function SpawnDecal(part,side)
+					local args = {
+						[1] = "CreateTextures",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Face"] = side,
+								["TextureType"] = "Decal"
+							}
+						}
+					}
+		
+					_(args)
+				end
+				function AddDecal(part,asset,side)
+					local args = {
+						[1] = "SyncTexture",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Face"] = side,
+								["TextureType"] = "Decal",
+								["Texture"] = "rbxassetid://".. asset
+							}
+						}
+					}
+					_(args)
+				end
+		
+				function spam(id)
+					for i,v in game.workspace:GetDescendants() do
+						if v:IsA("BasePart") then
+							spawn(function()
+								SetLocked(v,false)
+								SpawnDecal(v,Enum.NormalId.Front)
+								AddDecal(v,id,Enum.NormalId.Front)
+		
+								SpawnDecal(v,Enum.NormalId.Back)
+								AddDecal(v,id,Enum.NormalId.Back)
+		
+								SpawnDecal(v,Enum.NormalId.Right)
+								AddDecal(v,id,Enum.NormalId.Right)
+		
+								SpawnDecal(v,Enum.NormalId.Left)
+								AddDecal(v,id,Enum.NormalId.Left)
+		
+								SpawnDecal(v,Enum.NormalId.Bottom)
+								AddDecal(v,id,Enum.NormalId.Bottom)
+		
+								SpawnDecal(v,Enum.NormalId.Top)
+								AddDecal(v,id,Enum.NormalId.Top)
+							end)
+						end
+					end 
+				end
+				spam(""..slux)
+		end)
+		
+		script.Parent.SkyboxF3X.MouseButton1Click:Connect(function()
+		
+		
+				local player = game.Players.LocalPlayer
+			local char = player.Character
+			local slux = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+				local tool
+				for i,v in player:GetDescendants() do
+					if v.Name == "SyncAPI" then
+						tool = v.Parent
+					end
+				end
+				for i,v in game.ReplicatedStorage:GetDescendants() do
+					if v.Name == "SyncAPI" then
+						tool = v.Parent
+					end
+				end
+				--craaa
+				remote = tool.SyncAPI.ServerEndpoint
+				function _(args)
+					remote:InvokeServer(unpack(args))
+				end
+				function SetCollision(part,boolean)
+					local args = {
+						[1] = "SyncCollision",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["CanCollide"] = boolean
+							}
+						}
+					}
+					_(args)
+				end
+				function SetAnchor(boolean,part)
+					local args = {
+						[1] = "SyncAnchor",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Anchored"] = boolean
+							}
+						}
+					}
+					_(args)
+				end
+				function CreatePart(cf,parent)
+					local args = {
+						[1] = "CreatePart",
+						[2] = "Normal",
+						[3] = cf,
+						[4] = parent
+					}
+					_(args)
+				end
+				function DestroyPart(part)
+					local args = {
+						[1] = "Remove",
+						[2] = {
+							[1] = part
+						}
+					}
+					_(args)
+				end
+				function MovePart(part,cf)
+					local args = {
+						[1] = "SyncMove",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["CFrame"] = cf
+							}
+						}
+					}
+					_(args)
+				end
+				function Resize(part,size,cf)
+					local args = {
+						[1] = "SyncResize",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["CFrame"] = cf,
+								["Size"] = size
+							}
+						}
+					}
+					_(args)
+				end
+				function AddMesh(part)
+					local args = {
+						[1] = "CreateMeshes",
+						[2] = {
+							[1] = {
+								["Part"] = part
+							}
+						}
+					}
+					_(args)
+				end
+		
+				function SetMesh(part,meshid)
+					local args = {
+						[1] = "SyncMesh",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["MeshId"] = "rbxassetid://"..meshid
+							}
+						}
+					}
+					_(args)
+				end
+				function SetTexture(part, texid)
+					local args = {
+						[1] = "SyncMesh",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["TextureId"] = "rbxassetid://"..texid
+							}
+						}
+					}
+					_(args)
+				end
+				function SetName(part, stringg)
+					local args = {
+						[1] = "SetName",
+						[2] = {
+							[1] = part
+						},
+						[3] = stringg
+					}
+		
+					_(args)
+				end
+				function MeshResize(part,size)
+					local args = {
+						[1] = "SyncMesh",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Scale"] = size
+							}
+						}
+					}
+					_(args)
+				end
+				function Weld(part1, part2,lead)
+					local args = {
+						[1] = "CreateWelds",
+						[2] = {
+							[1] = part1,
+							[2] = part2
+						},
+						[3] = lead
+					}
+					_(args)
+		
+				end
+				function SetLocked(part,boolean)
+					local args = {
+						[1] = "SetLocked",
+						[2] = {
+							[1] = part
+						},
+						[3] = boolean
+					}
+					_(args)
+				end
+				function SetTrans(part,int)
+					local args = {
+						[1] = "SyncMaterial",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Transparency"] = int
+							}
+						}
+					}
+					_(args)
+				end
+				function CreateSpotlight(part)
+					local args = {
+						[1] = "CreateLights",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["LightType"] = "SpotLight"
+							}
+						}
+					}
+					_(args)
+				end
+				function SyncLighting(part,brightness)
+					local args = {
+						[1] = "SyncLighting",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["LightType"] = "SpotLight",
+								["Brightness"] = brightness
+							}
+						}
+					}
+					_(args)
+				end
+				function Color(part,color)
+					local args = {
+						[1] = "SyncColor",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Color"] = color --[[Color3]],
+								["UnionColoring"] = false
+							}
+						}
+					}
+					_(args)
+				end
+				function SpawnDecal(part,side)
+					local args = {
+						[1] = "CreateTextures",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Face"] = side,
+								["TextureType"] = "Decal"
+							}
+						}
+					}
+		
+					_(args)
+				end
+				function AddDecal(part,asset,side)
+					local args = {
+						[1] = "SyncTexture",
+						[2] = {
+							[1] = {
+								["Part"] = part,
+								["Face"] = side,
+								["TextureType"] = "Decal",
+								["Texture"] = "rbxassetid://".. asset
+							}
+						}
+					}
+					_(args)
+				end
+		
+				function Sky(id)
+					e = char.HumanoidRootPart.CFrame.x
+					f = char.HumanoidRootPart.CFrame.y
+					g = char.HumanoidRootPart.CFrame.z
+					CreatePart(CFrame.new(math.floor(e),math.floor(f),math.floor(g)) + Vector3.new(0,6,0),workspace)
+					for i,v in game.Workspace:GetDescendants() do
+						if v:IsA("BasePart") and v.CFrame.x == math.floor(e) and v.CFrame.z == math.floor(g) then
+							--spawn(function()
+							SetName(v,"Sky")
+							AddMesh(v)
+							--end)
+							--spawn(function()
+							SetMesh(v,"111891702759441")
+							SetTexture(v,id)
+							--end)
+							MeshResize(v,Vector3.new(6000,6000,6000))
+							SetLocked(v,true)
+						end
+					end
+				end
+			Sky(""..slux)
+		
+		
+		
+		
+		end)
+		
+		
+		script.Parent.mc.MouseButton1Click:Connect(function()
+			local SoundX = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.sound1.Text
+			local PIT = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.pitc.Text
+			local Vol = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.VOL.Text
+				local ReplicatedStorage = game:GetService("ReplicatedStorage")
+				local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+				RequestCommand:InvokeServer(";music "..SoundX)
+				RequestCommand:InvokeServer(";volume "..Vol)
+				RequestCommand:InvokeServer(";pitch "..PIT)
+		
+		end)
+		
+		script.Parent.mslux.MouseButton1Click:Connect(function()
+			
+			local ReplicatedStorage = game:GetService("ReplicatedStorage")
+			local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+			RequestCommand:InvokeServer(";mb JOIN TEAM LUXCAZS")
+		
+		
+		end)
+		script.Parent.givebtools.MouseButton1Click:Connect(function()
+		
+			local ReplicatedStorage = game:GetService("ReplicatedStorage")
+			local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+			RequestCommand:InvokeServer(";btools")
+		
+		
+		end)
+		
+		
+	end
+	coroutine.wrap(PPSWKVL_fake_script)()
+	
+end
+coroutine.wrap(KHTYE_fake_script)()
+local function CPGI_fake_script() -- Pages.Homes 
+	local script = Instance.new('LocalScript', Pages)
+
+	
+	wait(2)
+	local Home = Instance.new("Frame")
+	local HomeYp = Instance.new("Frame")
+	local UProfil = Instance.new("ImageLabel")
+	local TAext = Instance.new("TextLabel")
+	local Framing = Instance.new("Frame")
+	local nAmePage = Instance.new("TextLabel")
+	local HomeYp_2 = Instance.new("Frame")
+	local UProfil_2 = Instance.new("ImageLabel")
+	local TAext_2 = Instance.new("TextLabel")
+	local nAmePage_2 = Instance.new("TextLabel")
+	local TextBox = Instance.new("TextBox")
+	local nAmePage_3 = Instance.new("TextLabel")
+	local ImageLabel = Instance.new("ImageLabel")
+	
+	--Properties:
+	
+	Home.Name = "Home"
+	Home.Parent = script.Parent.Parent.Pages
+	Home.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+	Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Home.BorderSizePixel = 0
+	Home.Position = UDim2.new(0, 0, 0.0688330978, 0)
+	Home.Size = UDim2.new(0, 288, 0, 395)
+	
+	HomeYp.Name = "HomeYp"
+	HomeYp.Parent = Home
+	HomeYp.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	HomeYp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	HomeYp.BorderSizePixel = 0
+	HomeYp.Position = UDim2.new(0.00347222225, 0, 0.0886075944, 0)
+	HomeYp.Size = UDim2.new(0, 287, 0, 63)
+	
+	UProfil.Name = "UProfil"
+	UProfil.Parent = HomeYp
+	UProfil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	UProfil.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	UProfil.BorderSizePixel = 0
+	UProfil.Position = UDim2.new(0.0522648096, 0, 0, 0)
+	UProfil.Size = UDim2.new(0, 62, 0, 63)
+	UProfil.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	
+	TAext.Name = "TAext"
+	TAext.Parent = HomeYp
+	TAext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TAext.BackgroundTransparency = 1.000
+	TAext.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TAext.BorderSizePixel = 0
+	TAext.Position = UDim2.new(0.331010461, 0, 0.174603179, 0)
+	TAext.Size = UDim2.new(0, 183, 0, 41)
+	TAext.Font = Enum.Font.SourceSansBold
+	TAext.Text = "You"
+	TAext.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TAext.TextScaled = true
+	TAext.TextSize = 14.000
+	TAext.TextWrapped = true
+	
+	Framing.Name = "Framing"
+	Framing.Parent = Home
+	Framing.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+	Framing.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Framing.BorderSizePixel = 0
+	Framing.Position = UDim2.new(0, 0, 0.362025082, 0)
+	Framing.Size = UDim2.new(0, 287, 0, 237)
+	
+	nAmePage.Name = "nAmePage"
+	nAmePage.Parent = Framing
+	nAmePage.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage.BorderSizePixel = 0
+	nAmePage.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+	nAmePage.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage.Font = Enum.Font.SourceSansBold
+	nAmePage.Text = "Creator"
+	nAmePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage.TextScaled = true
+	nAmePage.TextSize = 14.000
+	nAmePage.TextWrapped = true
+	nAmePage.TextXAlignment = Enum.TextXAlignment.Left
+	
+	HomeYp_2.Name = "HomeYp"
+	HomeYp_2.Parent = Framing
+	HomeYp_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	HomeYp_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	HomeYp_2.BorderSizePixel = 0
+	HomeYp_2.Position = UDim2.new(0.0034721985, 0, 0.0886075944, 0)
+	HomeYp_2.Size = UDim2.new(0, 284, 0, 63)
+	
+	UProfil_2.Name = "UProfil"
+	UProfil_2.Parent = HomeYp_2
+	UProfil_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	UProfil_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	UProfil_2.BorderSizePixel = 0
+	UProfil_2.Position = UDim2.new(0.0522648096, 0, 0, 0)
+	UProfil_2.Size = UDim2.new(0, 62, 0, 63)
+	UProfil_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	
+	TAext_2.Name = "TAext"
+	TAext_2.Parent = HomeYp_2
+	TAext_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TAext_2.BackgroundTransparency = 1.000
+	TAext_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TAext_2.BorderSizePixel = 0
+	TAext_2.Position = UDim2.new(0.331010461, 0, 0.174603179, 0)
+	TAext_2.Size = UDim2.new(0, 183, 0, 41)
+	TAext_2.Font = Enum.Font.SourceSansBold
+	TAext_2.Text = "Luxcazs"
+	TAext_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TAext_2.TextScaled = true
+	TAext_2.TextSize = 14.000
+	TAext_2.TextWrapped = true
+	
+	nAmePage_2.Name = "nAmePage"
+	nAmePage_2.Parent = Framing
+	nAmePage_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage_2.BorderSizePixel = 0
+	nAmePage_2.Position = UDim2.new(0.00456466386, 0, 0.469892025, 0)
+	nAmePage_2.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage_2.Font = Enum.Font.SourceSansBold
+	nAmePage_2.Text = "Info"
+	nAmePage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage_2.TextScaled = true
+	nAmePage_2.TextSize = 14.000
+	nAmePage_2.TextWrapped = true
+	nAmePage_2.TextXAlignment = Enum.TextXAlignment.Left
+	
+	TextBox.Parent = nAmePage_2
+	TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextBox.BorderSizePixel = 0
+	TextBox.Position = UDim2.new(0.0278745648, 0, 4.76923084, 0)
+	TextBox.Size = UDim2.new(0, 269, 0, 52)
+	TextBox.ClearTextOnFocus = false
+	TextBox.Font = Enum.Font.SourceSans
+	TextBox.Text = "https://discord.gg/mdYMGsrtUR"
+	TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TextBox.TextScaled = true
+	TextBox.TextSize = 14.000
+	TextBox.TextWrapped = true
+	
+	nAmePage_3.Name = "nAmePage"
+	nAmePage_3.Parent = Home
+	nAmePage_3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage_3.BorderSizePixel = 0
+	nAmePage_3.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+	nAmePage_3.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage_3.Font = Enum.Font.SourceSansBold
+	nAmePage_3.Text = "Page Home"
+	nAmePage_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage_3.TextScaled = true
+	nAmePage_3.TextSize = 14.000
+	nAmePage_3.TextWrapped = true
+	nAmePage_3.TextXAlignment = Enum.TextXAlignment.Left
+	
+	ImageLabel.Parent = Home
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.BackgroundTransparency = 1.000
+	ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageLabel.BorderSizePixel = 0
+	ImageLabel.Position = UDim2.new(0.729166687, 0, 0.202531651, 0)
+	ImageLabel.Rotation = -18.000
+	ImageLabel.Size = UDim2.new(0, 68, 0, 62)
+	ImageLabel.Image = "rbxassetid://135823113053164"
+	ImageLabel.ImageTransparency = 0.270
+	
+	-- Scripts:
+	
+	local function BWHDBC_fake_script() -- Home.LocalScript 
+		local script = Instance.new('LocalScript', Home)
+	
+		script.Parent.Skybox.MouseButton1Down:connect(function()
+			local s = Instance.new("Sky")
+			s.Name = "Sky"
+			s.Parent = game.Lighting
+			local skyboxID = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting.skydi.Text
+			s.SkyboxBk = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxDn = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxFt = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxLf = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxRt = "http://www.roblox.com/asset/?id="..skyboxID
+			s.SkyboxUp = "http://www.roblox.com/asset/?id="..skyboxID
+			game.Lighting.TimeOfDay = 12		
+		end)
+		
+		
+		
+	end
+	coroutine.wrap(BWHDBC_fake_script)()
+	local function HDDG_fake_script() -- UProfil.LocalScript 
+		local script = Instance.new('LocalScript', UProfil)
+	
+		local Players = game:GetService("Players")
+		
+		local player = Players.LocalPlayer
+		
+		local PLACEHOLDER_IMAGE = "rbxassetid://0" -- replace with placeholder image
+		
+		-- fetch the thumbnail
+		local userId = player.UserId
+		local thumbType = Enum.ThumbnailType.AvatarThumbnail
+		local thumbSize = Enum.ThumbnailSize.Size420x420
+		local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+		
+		-- set the ImageLabel's content to the user thumbnail
+		local imageLabel = script.Parent
+		imageLabel.Image = (isReady and content) or PLACEHOLDER_IMAGE
+		imageLabel.Size = UDim2.new(0, 62,0, 63)
+	end
+	coroutine.wrap(HDDG_fake_script)()
+	local function VUPGRB_fake_script() -- TAext.LocalScript 
+		local script = Instance.new('LocalScript', TAext)
+	
+		local player = game.Players.LocalPlayer
+		
+		script.Parent.Text = player.Name
+	end
+	coroutine.wrap(VUPGRB_fake_script)()
+	local function JSGDR_fake_script() -- UProfil_2.LocalScript 
+		local script = Instance.new('LocalScript', UProfil_2)
+	
+		local Players = game:GetService("Players")
+		
+		local player = Players:GetUserIdFromNameAsync("Luxcazs")
+		
+		local PLACEHOLDER_IMAGE = "rbxassetid://0" -- replace with placeholder image
+		
+		-- fetch the thumbnail
+		local userId = Players:GetUserIdFromNameAsync("Luxcazs")
+		local thumbType = Enum.ThumbnailType.HeadShot
+		local thumbSize = Enum.ThumbnailSize.Size420x420
+		local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+		
+		-- set the ImageLabel's content to the user thumbnail
+		local imageLabel = script.Parent
+		imageLabel.Image = (isReady and content) or PLACEHOLDER_IMAGE
+		imageLabel.Size = UDim2.new(0, 62,0, 63)
+	end
+	coroutine.wrap(JSGDR_fake_script)()
+	
+end
+coroutine.wrap(CPGI_fake_script)()
+local function QKOOV_fake_script() -- Pages.Gamess 
+	local script = Instance.new('LocalScript', Pages)
+
+	
+	wait(1)
+	local Game_ = Instance.new("Frame")
+	local nAmePage = Instance.new("TextLabel")
+	local disco = Instance.new("TextButton")
+	local Decal = Instance.new("TextButton")
+	local Unanhor = Instance.new("TextButton")
+	local clear_terrain = Instance.new("TextButton")
+	local Flood = Instance.new("TextButton")
+	local Baseplat = Instance.new("TextButton")
+	local clear_work = Instance.new("TextButton")
+	
+	--Properties:
+	
+	Game_.Name = "Game"
+	Game_.Parent = script.Parent.Parent.Pages
+	Game_.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+	Game_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Game_.BorderSizePixel = 0
+	Game_.Position = UDim2.new(0, 0, 0.0688330978, 0)
+	Game_.Size = UDim2.new(0, 288, 0, 395)
+	Game_.Visible = false
+	
+	nAmePage.Name = "nAmePage"
+	nAmePage.Parent = Game_
+	nAmePage.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage.BorderSizePixel = 0
+	nAmePage.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+	nAmePage.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage.Font = Enum.Font.SourceSansBold
+	nAmePage.Text = "Page Game"
+	nAmePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage.TextScaled = true
+	nAmePage.TextSize = 14.000
+	nAmePage.TextWrapped = true
+	nAmePage.TextXAlignment = Enum.TextXAlignment.Left
+	
+	disco.Name = "disco"
+	disco.Parent = Game_
+	disco.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	disco.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	disco.BorderSizePixel = 0
+	disco.Position = UDim2.new(0.0347222239, 0, 0.0202531647, 0)
+	disco.Size = UDim2.new(0, 113, 0, 36)
+	disco.Font = Enum.Font.SourceSansBold
+	disco.Text = "Disco"
+	disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+	disco.TextScaled = true
+	disco.TextSize = 14.000
+	disco.TextWrapped = true
+	
+	Decal.Name = "Decal"
+	Decal.Parent = Game_
+	Decal.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Decal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Decal.BorderSizePixel = 0
+	Decal.Position = UDim2.new(0.548611104, 0, 0.0202531647, 0)
+	Decal.Size = UDim2.new(0, 113, 0, 36)
+	Decal.Font = Enum.Font.SourceSansBold
+	Decal.Text = "Animated Baseplat"
+	Decal.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Decal.TextScaled = true
+	Decal.TextSize = 14.000
+	Decal.TextWrapped = true
+	
+	Unanhor.Name = "Unanhor"
+	Unanhor.Parent = Game_
+	Unanhor.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Unanhor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Unanhor.BorderSizePixel = 0
+	Unanhor.Position = UDim2.new(0, 0, 0.215189874, 0)
+	Unanhor.Size = UDim2.new(0, 287, 0, 36)
+	Unanhor.Font = Enum.Font.SourceSansBold
+	Unanhor.Text = "Unanchor"
+	Unanhor.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Unanhor.TextScaled = true
+	Unanhor.TextSize = 14.000
+	Unanhor.TextWrapped = true
+	
+	clear_terrain.Name = "clear_terrain"
+	clear_terrain.Parent = Game_
+	clear_terrain.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	clear_terrain.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	clear_terrain.BorderSizePixel = 0
+	clear_terrain.Position = UDim2.new(0.00108400977, 0, 0.369620264, 0)
+	clear_terrain.Size = UDim2.new(0, 287, 0, 36)
+	clear_terrain.Font = Enum.Font.SourceSansBold
+	clear_terrain.Text = "Clear Terrain"
+	clear_terrain.TextColor3 = Color3.fromRGB(255, 255, 255)
+	clear_terrain.TextScaled = true
+	clear_terrain.TextSize = 14.000
+	clear_terrain.TextWrapped = true
+	
+	Flood.Name = "Flood"
+	Flood.Parent = Game_
+	Flood.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Flood.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Flood.BorderSizePixel = 0
+	Flood.Position = UDim2.new(0, 0, 0.521519005, 0)
+	Flood.Size = UDim2.new(0, 288, 0, 36)
+	Flood.Font = Enum.Font.SourceSansBold
+	Flood.Text = "Flood"
+	Flood.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Flood.TextScaled = true
+	Flood.TextSize = 14.000
+	Flood.TextWrapped = true
+	
+	Baseplat.Name = "Baseplat"
+	Baseplat.Parent = Game_
+	Baseplat.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Baseplat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Baseplat.BorderSizePixel = 0
+	Baseplat.Position = UDim2.new(0, 0, 0.645569623, 0)
+	Baseplat.Size = UDim2.new(0, 288, 0, 36)
+	Baseplat.Font = Enum.Font.SourceSansBold
+	Baseplat.Text = "Baseplat"
+	Baseplat.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Baseplat.TextScaled = true
+	Baseplat.TextSize = 14.000
+	Baseplat.TextWrapped = true
+	
+	clear_work.Name = "clear_work"
+	clear_work.Parent = Game_
+	clear_work.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	clear_work.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	clear_work.BorderSizePixel = 0
+	clear_work.Position = UDim2.new(0, 0, 0.792405069, 0)
+	clear_work.Size = UDim2.new(0, 288, 0, 36)
+	clear_work.Font = Enum.Font.SourceSansBold
+	clear_work.Text = "Clear Workspace"
+	clear_work.TextColor3 = Color3.fromRGB(255, 255, 255)
+	clear_work.TextScaled = true
+	clear_work.TextSize = 14.000
+	clear_work.TextWrapped = true
+	
+	-- Scripts:
+	
+	local function TUPKOW_fake_script() -- Game.LocalScript 
+		local script = Instance.new('LocalScript', Game_)
+	
+		
+		script.Parent.clear_terrain.MouseButton1Down:connect(function()
+				game.Workspace.Terrain:Clear()
+		end)
+		script.Parent.Flood.MouseButton1Down:connect(function()
+				game.Workspace.Terrain:SetCells(Region3int16.new(Vector3int16.new(-100,-100,-100), Vector3int16.new(100,100,100)), 17, "Solid", "X")	
+			end)
+		script.Parent.Unanhor.MouseButton1Down:connect(function()
+				function exPro(root)
+					for _, v in pairs(root:GetChildren()) do
+						if v:IsA("BasePart") then
+							v.Material = "Plastic"
+							v.Transparency = 0
+							v.Anchored = false
+							v.Locked = false
+						end
+						exPro(v)
+					end
+				end
+				function asdf(root)
+					for _, v in pairs(root:GetChildren()) do
+						asdf(v)
+					end
+				end
+				exPro(game.Workspace)
+				asdf(game.Workspace)
+			end)
+		script.Parent.clear_work.MouseButton1Down:connect(function()
+				game.Workspace:ClearAllChildren()
+			end)
+		
+		script.Parent.Baseplat.MouseButton1Down:connect(function()
+				local pt = Instance.new("Part")
+				pt.BrickColor = BrickColor.new("Silver")
+				pt.Anchored = true
+				pt.CanCollide = true
+				pt.BottomSurface = "Weld"
+				pt.Parent = workspace
+				pt.Name = (math.random(1,1000000))
+				pt.Size = Vector3.new(1000, 1, 1000)
+		end)
+		script.Parent.disco.MouseButton1Click:Connect(function()
+			local Lighting = game:GetService("Lighting")
+			local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
+		
+			function zigzag(X) 
+				return math.acos(math.cos(X*math.pi))/math.pi
+			end
+		
+			Counter = 0
+		
+			Lighting.TimeOfDay = "12:00"
+		
+			while wait(0.1) do 
+				ColorCorrection.TintColor = Color3.fromHSV(zigzag(Counter),1,1)
+				Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
+				Counter += 0.01
+			end
+		end)
+	end
+	coroutine.wrap(TUPKOW_fake_script)()
+	
+end
+coroutine.wrap(QKOOV_fake_script)()
+local function GNHLF_fake_script() -- Pages.Bonuss 
+	local script = Instance.new('LocalScript', Pages)
+
+	
+	
+	local Bonus = Instance.new("Frame")
+	local nAmePage = Instance.new("TextLabel")
+	local openssetting = Instance.new("TextButton")
+	local nAmePage_2 = Instance.new("TextLabel")
+	local idk82193 = Instance.new("TextButton")
+	local Liste = Instance.new("ScrollingFrame")
+	local UIListLayout = Instance.new("UIListLayout")
+	local Frame1 = Instance.new("Frame")
+	local Name = Instance.new("TextLabel")
+	local ImageSkiID = Instance.new("ImageLabel")
+	local haha1 = Instance.new("TextButton")
+	local Frame2 = Instance.new("Frame")
+	local Name_2 = Instance.new("TextLabel")
+	local ImageSkiID_2 = Instance.new("ImageLabel")
+	local haha2 = Instance.new("TextButton")
+	local Frame3 = Instance.new("Frame")
+	local Name_3 = Instance.new("TextLabel")
+	local ImageSkiID_3 = Instance.new("ImageLabel")
+	local haha3 = Instance.new("TextButton")
+	local Frame4 = Instance.new("Frame")
+	local ImageSkiID_4 = Instance.new("ImageLabel")
+	local haha4 = Instance.new("TextButton")
+	local Name_4 = Instance.new("TextLabel")
+	local Frame5 = Instance.new("Frame")
+	local Name_5 = Instance.new("TextLabel")
+	local ImageSkiID_5 = Instance.new("ImageLabel")
+	local haha5 = Instance.new("TextButton")
+	local Frame6 = Instance.new("Frame")
+	local Name_6 = Instance.new("TextLabel")
+	local ImageSkiID_6 = Instance.new("ImageLabel")
+	local haha6 = Instance.new("TextButton")
+	local nAmePage_3 = Instance.new("TextLabel")
+	
+	--Properties:
+	
+	Bonus.Name = "Bonus"
+	Bonus.Parent = script.Parent.Parent.Pages
+	Bonus.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+	Bonus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Bonus.BorderSizePixel = 0
+	Bonus.Position = UDim2.new(0, 0, 0.0688330978, 0)
+	Bonus.Size = UDim2.new(0, 288, 0, 395)
+	Bonus.Visible = false
+	
+	nAmePage.Name = "nAmePage"
+	nAmePage.Parent = Bonus
+	nAmePage.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage.BorderSizePixel = 0
+	nAmePage.Position = UDim2.new(0.00108030112, 0, -0.0575341731, 0)
+	nAmePage.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage.Font = Enum.Font.SourceSansBold
+	nAmePage.Text = "Page Bonus"
+	nAmePage.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage.TextScaled = true
+	nAmePage.TextSize = 14.000
+	nAmePage.TextWrapped = true
+	nAmePage.TextXAlignment = Enum.TextXAlignment.Left
+	
+	openssetting.Name = "openssetting"
+	openssetting.Parent = Bonus
+	openssetting.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	openssetting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	openssetting.BorderSizePixel = 0
+	openssetting.Position = UDim2.new(0, 0, 0.926582277, 0)
+	openssetting.Size = UDim2.new(0, 286, 0, 22)
+	openssetting.Font = Enum.Font.SourceSansBold
+	openssetting.Text = "Open/close Setting"
+	openssetting.TextColor3 = Color3.fromRGB(255, 255, 255)
+	openssetting.TextScaled = true
+	openssetting.TextSize = 14.000
+	openssetting.TextWrapped = true
+	
+	nAmePage_2.Name = "nAmePage"
+	nAmePage_2.Parent = Bonus
+	nAmePage_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage_2.BorderSizePixel = 0
+	nAmePage_2.Position = UDim2.new(0.00455252314, 0, 0.85638994, 0)
+	nAmePage_2.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage_2.Font = Enum.Font.SourceSansBold
+	nAmePage_2.Text = ""
+	nAmePage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage_2.TextScaled = true
+	nAmePage_2.TextSize = 14.000
+	nAmePage_2.TextWrapped = true
+	nAmePage_2.TextXAlignment = Enum.TextXAlignment.Left
+	
+	idk82193.Name = "idk82193"
+	idk82193.Parent = Bonus
+	idk82193.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	idk82193.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	idk82193.BorderSizePixel = 0
+	idk82193.Position = UDim2.new(0.131944448, 0, 0.0632911399, 0)
+	idk82193.Size = UDim2.new(0, 200, 0, 50)
+	idk82193.Font = Enum.Font.SourceSansBold
+	idk82193.Text = "Spam Chat"
+	idk82193.TextColor3 = Color3.fromRGB(255, 255, 255)
+	idk82193.TextScaled = true
+	idk82193.TextSize = 14.000
+	idk82193.TextWrapped = true
+	
+	Liste.Name = "Liste"
+	Liste.Parent = Bonus
+	Liste.Active = true
+	Liste.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Liste.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Liste.BorderSizePixel = 0
+	Liste.Position = UDim2.new(0, 0, 0.260759562, 0)
+	Liste.Size = UDim2.new(0, 285, 0, 219)
+	Liste.BottomImage = ""
+	Liste.CanvasPosition = Vector2.new(0, 140)
+	Liste.CanvasSize = UDim2.new(0, 0, 1, 0)
+	Liste.TopImage = ""
+	
+	UIListLayout.Parent = Liste
+	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout.Padding = UDim.new(0, 3)
+	
+	Frame1.Name = "Frame1"
+	Frame1.Parent = Liste
+	Frame1.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Frame1.BorderSizePixel = 0
+	Frame1.Position = UDim2.new(0, 0, 6.9674833e-08, 0)
+	Frame1.Size = UDim2.new(0, 268, 0, 60)
+	
+	Name.Name = "Name"
+	Name.Parent = Frame1
+	Name.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Name.BorderSizePixel = 0
+	Name.Position = UDim2.new(0.25373134, 0, 0, 0)
+	Name.Size = UDim2.new(0, 200, 0, 20)
+	Name.Font = Enum.Font.SourceSansBold
+	Name.Text = "JOIN TEAM/BENJI"
+	Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Name.TextScaled = true
+	Name.TextSize = 14.000
+	Name.TextWrapped = true
+	
+	ImageSkiID.Name = "ImageSkiID"
+	ImageSkiID.Parent = Frame1
+	ImageSkiID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageSkiID.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID.BorderSizePixel = 0
+	ImageSkiID.Size = UDim2.new(0, 68, 0, 60)
+	ImageSkiID.Image = "rbxassetid://122392989525430"
+	
+	haha1.Name = "haha1"
+	haha1.Parent = Frame1
+	haha1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	haha1.BackgroundTransparency = 1.000
+	haha1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	haha1.BorderSizePixel = 0
+	haha1.Position = UDim2.new(0, 0, 2.54313164e-07, 0)
+	haha1.Size = UDim2.new(0, 268, 0, 60)
+	haha1.Font = Enum.Font.SourceSans
+	haha1.Text = ""
+	haha1.TextColor3 = Color3.fromRGB(0, 0, 0)
+	haha1.TextSize = 14.000
+	
+	Frame2.Name = "Frame2"
+	Frame2.Parent = Liste
+	Frame2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Frame2.BorderSizePixel = 0
+	Frame2.Position = UDim2.new(0, 0, 6.9674833e-08, 0)
+	Frame2.Size = UDim2.new(0, 268, 0, 60)
+	
+	Name_2.Name = "Name"
+	Name_2.Parent = Frame2
+	Name_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Name_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Name_2.BorderSizePixel = 0
+	Name_2.Position = UDim2.new(0.25373134, 0, 0, 0)
+	Name_2.Size = UDim2.new(0, 200, 0, 20)
+	Name_2.Font = Enum.Font.SourceSansBold
+	Name_2.Text = "Team Luxcazs Original"
+	Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Name_2.TextScaled = true
+	Name_2.TextSize = 14.000
+	Name_2.TextWrapped = true
+	
+	ImageSkiID_2.Name = "ImageSkiID"
+	ImageSkiID_2.Parent = Frame2
+	ImageSkiID_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageSkiID_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID_2.BorderSizePixel = 0
+	ImageSkiID_2.Size = UDim2.new(0, 68, 0, 60)
+	ImageSkiID_2.Image = "rbxassetid://71381429015099"
+	
+	haha2.Name = "haha2"
+	haha2.Parent = Frame2
+	haha2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	haha2.BackgroundTransparency = 1.000
+	haha2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	haha2.BorderSizePixel = 0
+	haha2.Position = UDim2.new(0, 0, 2.54313164e-07, 0)
+	haha2.Size = UDim2.new(0, 268, 0, 60)
+	haha2.Font = Enum.Font.SourceSans
+	haha2.Text = ""
+	haha2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	haha2.TextSize = 14.000
+	
+	Frame3.Name = "Frame3"
+	Frame3.Parent = Liste
+	Frame3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	Frame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Frame3.BorderSizePixel = 0
+	Frame3.Position = UDim2.new(0, 0, 6.9674833e-08, 0)
+	Frame3.Size = UDim2.new(0, 268, 0, 60)
+	
+	Name_3.Name = "Name"
+	Name_3.Parent = Frame3
+	Name_3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Name_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Name_3.BorderSizePixel = 0
+	Name_3.Position = UDim2.new(0.25373134, 0, 0, 0)
+	Name_3.Size = UDim2.new(0, 200, 0, 20)
+	Name_3.Font = Enum.Font.SourceSansBold
+	Name_3.Text = "Join team luxcazs"
+	Name_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Name_3.TextScaled = true
+	Name_3.TextSize = 14.000
+	Name_3.TextWrapped = true
+	
+	ImageSkiID_3.Name = "ImageSkiID"
+	ImageSkiID_3.Parent = Frame3
+	ImageSkiID_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageSkiID_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID_3.BorderSizePixel = 0
+	ImageSkiID_3.Size = UDim2.new(0, 68, 0, 60)
+	ImageSkiID_3.Image = "rbxassetid://123857798719680"
+	
+	haha3.Name = "haha3"
+	haha3.Parent = Frame3
+	haha3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	haha3.BackgroundTransparency = 1.000
+	haha3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	haha3.BorderSizePixel = 0
+	haha3.Position = UDim2.new(0, 0, 2.54313164e-07, 0)
+	haha3.Size = UDim2.new(0, 268, 0, 60)
+	haha3.Font = Enum.Font.SourceSans
+	haha3.Text = ""
+	haha3.TextColor3 = Color3.fromRGB(0, 0, 0)
+	haha3.TextSize = 14.000
+	
+	Frame4.Name = "Frame4"
+	Frame4.Parent = Liste
+	Frame4.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	Frame4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Frame4.BorderSizePixel = 0
+	Frame4.Position = UDim2.new(0, 0, 6.9674833e-08, 0)
+	Frame4.Size = UDim2.new(0, 268, 0, 60)
+	
+	ImageSkiID_4.Name = "ImageSkiID"
+	ImageSkiID_4.Parent = Frame4
+	ImageSkiID_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageSkiID_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID_4.BorderSizePixel = 0
+	ImageSkiID_4.Size = UDim2.new(0, 68, 0, 60)
+	ImageSkiID_4.Image = "rbxassetid://120592723935001"
+	
+	haha4.Name = "haha4"
+	haha4.Parent = Frame4
+	haha4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	haha4.BackgroundTransparency = 1.000
+	haha4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	haha4.BorderSizePixel = 0
+	haha4.Position = UDim2.new(0, 0, 2.54313164e-07, 0)
+	haha4.Size = UDim2.new(0, 268, 0, 60)
+	haha4.Font = Enum.Font.SourceSans
+	haha4.Text = ""
+	haha4.TextColor3 = Color3.fromRGB(0, 0, 0)
+	haha4.TextSize = 14.000
+	
+	Name_4.Name = "Name"
+	Name_4.Parent = Frame4
+	Name_4.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Name_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Name_4.BorderSizePixel = 0
+	Name_4.Position = UDim2.new(0.25373134, 0, 0, 0)
+	Name_4.Size = UDim2.new(0, 200, 0, 20)
+	Name_4.Font = Enum.Font.SourceSansBold
+	Name_4.Text = "Luxcazs Friends"
+	Name_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Name_4.TextScaled = true
+	Name_4.TextSize = 14.000
+	Name_4.TextWrapped = true
+	
+	Frame5.Name = "Frame5"
+	Frame5.Parent = Liste
+	Frame5.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	Frame5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Frame5.BorderSizePixel = 0
+	Frame5.Position = UDim2.new(0, 0, 6.9674833e-08, 0)
+	Frame5.Size = UDim2.new(0, 268, 0, 60)
+	
+	Name_5.Name = "Name"
+	Name_5.Parent = Frame5
+	Name_5.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Name_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Name_5.BorderSizePixel = 0
+	Name_5.Position = UDim2.new(0.25373134, 0, 0, 0)
+	Name_5.Size = UDim2.new(0, 200, 0, 20)
+	Name_5.Font = Enum.Font.SourceSansBold
+	Name_5.Text = "Asterion creepy"
+	Name_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Name_5.TextScaled = true
+	Name_5.TextSize = 14.000
+	Name_5.TextWrapped = true
+	
+	ImageSkiID_5.Name = "ImageSkiID"
+	ImageSkiID_5.Parent = Frame5
+	ImageSkiID_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageSkiID_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID_5.BorderSizePixel = 0
+	ImageSkiID_5.Size = UDim2.new(0, 68, 0, 60)
+	ImageSkiID_5.Image = "rbxassetid://87549841834541"
+	
+	haha5.Name = "haha5"
+	haha5.Parent = Frame5
+	haha5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	haha5.BackgroundTransparency = 1.000
+	haha5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	haha5.BorderSizePixel = 0
+	haha5.Position = UDim2.new(0, 0, 2.54313164e-07, 0)
+	haha5.Size = UDim2.new(0, 268, 0, 60)
+	haha5.Font = Enum.Font.SourceSans
+	haha5.Text = ""
+	haha5.TextColor3 = Color3.fromRGB(0, 0, 0)
+	haha5.TextSize = 14.000
+	
+	Frame6.Name = "Frame6"
+	Frame6.Parent = Liste
+	Frame6.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	Frame6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Frame6.BorderSizePixel = 0
+	Frame6.Position = UDim2.new(0, 0, 6.9674833e-08, 0)
+	Frame6.Size = UDim2.new(0, 268, 0, 60)
+	
+	Name_6.Name = "Name"
+	Name_6.Parent = Frame6
+	Name_6.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Name_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Name_6.BorderSizePixel = 0
+	Name_6.Position = UDim2.new(0.25373134, 0, 0, 0)
+	Name_6.Size = UDim2.new(0, 200, 0, 20)
+	Name_6.Font = Enum.Font.SourceSansBold
+	Name_6.Text = "Logo LuxGui Delux"
+	Name_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Name_6.TextScaled = true
+	Name_6.TextSize = 14.000
+	Name_6.TextWrapped = true
+	
+	ImageSkiID_6.Name = "ImageSkiID"
+	ImageSkiID_6.Parent = Frame6
+	ImageSkiID_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageSkiID_6.BorderSizePixel = 0
+	ImageSkiID_6.Size = UDim2.new(0, 68, 0, 60)
+	ImageSkiID_6.Image = "rbxassetid://135823113053164"
+	
+	haha6.Name = "haha6"
+	haha6.Parent = Frame6
+	haha6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	haha6.BackgroundTransparency = 1.000
+	haha6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	haha6.BorderSizePixel = 0
+	haha6.Position = UDim2.new(0, 0, 2.54313164e-07, 0)
+	haha6.Size = UDim2.new(0, 268, 0, 60)
+	haha6.Font = Enum.Font.SourceSans
+	haha6.Text = ""
+	haha6.TextColor3 = Color3.fromRGB(0, 0, 0)
+	haha6.TextSize = 14.000
+	
+	nAmePage_3.Name = "nAmePage"
+	nAmePage_3.Parent = Bonus
+	nAmePage_3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	nAmePage_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	nAmePage_3.BorderSizePixel = 0
+	nAmePage_3.Position = UDim2.new(0.00455252314, 0, 0.20828861, 0)
+	nAmePage_3.Size = UDim2.new(0, 287, 0, 13)
+	nAmePage_3.Font = Enum.Font.SourceSansBold
+	nAmePage_3.Text = "ID template"
+	nAmePage_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nAmePage_3.TextScaled = true
+	nAmePage_3.TextSize = 14.000
+	nAmePage_3.TextWrapped = true
+	nAmePage_3.TextXAlignment = Enum.TextXAlignment.Left
+	
+	-- Scripts:
+	
+	local function MMIMV_fake_script() -- Bonus.LocalScript 
+		local script = Instance.new('LocalScript', Bonus)
+	
+		script.Parent.idk82193.MouseButton1Click:Connect(function()
+		
+			local TextChatService = game:GetService("TextChatService")
+			local luxcazslebg12 = game.Players.LocalPlayer.PlayerGui.Lux.title.Setting_inter.Se_.Setting2.SettingChatPlayer.Text
+			local function SendChatMessage(message)
+				if TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
+					local textChannel = TextChatService.TextChannels.RBXGeneral
+					textChannel:SendAsync(message)
+		
+				else
+					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+				end
+			end
+		
+			SendChatMessage(""..luxcazslebg12)
+		
+		
+		end)
+		script.Parent.openssetting.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Visible = not script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Visible 
+		end)
+		
+		
+		--- Liste Button Open Image bruhidrhnzfze
+		
+		script.Parent.Liste.Frame1.haha1.MouseButton1Down:connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Se_.Setting.skydi.Text = 122392989525430
+		end)
+		script.Parent.Liste.Frame2.haha2.MouseButton1Down:connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Se_.Setting.skydi.Text = 71381429015099
+		end)
+		script.Parent.Liste.Frame3.haha3.MouseButton1Down:connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Se_.Setting.skydi.Text = 123857798719680
+		end)
+		script.Parent.Liste.Frame4.haha4.MouseButton1Down:connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Se_.Setting.skydi.Text = 120592723935001
+		end)
+		script.Parent.Liste.Frame5.haha5.MouseButton1Down:connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Se_.Setting.skydi.Text = 87549841834541
+		end)
+		script.Parent.Liste.Frame6.haha6.MouseButton1Down:connect(function()
+			script.Parent.Parent.Parent.Parent.Parent.title.Setting_inter.Se_.Setting.skydi.Text = 135823113053164
+		end)
+		
+	end
+	coroutine.wrap(MMIMV_fake_script)()
+	
+end
+coroutine.wrap(GNHLF_fake_script)()
+local function TEFWIAR_fake_script() -- yez.LocalScript 
+	local script = Instance.new('LocalScript', yez)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		
+		script.Parent.Parent.Parent.title.Visible = not script.Parent.Parent.Parent.title.Visible
+	end)
+end
+coroutine.wrap(TEFWIAR_fake_script)()
